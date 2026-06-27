@@ -1,42 +1,54 @@
-# PostgreSQL Interview Practice
+# 📘 Week 13 - Intermediate SQL
 
-A collection of PostgreSQL interview questions and solutions solved during my backend development journey.
+This section covers intermediate SQL concepts using PostgreSQL including joins, grouping, aggregation, and subqueries.
 
-## Repository
+---
 
-```
-.
-├── Week-12-Basic-SQL
-├── Week-13-Intermediate-SQL
-└── README.md
-```
-## 📚 Topics Covered
-
-### 📖 Week 12 - Basic SQL
-
-- SELECT
-- WHERE
-- ORDER BY
-- LIMIT
-- OFFSET
-- Aliasing
-- Aggregate Functions
-
-### 📖 Week 13 - Intermediate SQL
+## 📌 Topics Covered
 
 - GROUP BY
 - HAVING
 - INNER JOIN
 - LEFT JOIN
-- RIGHT JOIN
-- FULL JOIN
-- Aggregate Functions
+- Aggregate Functions (COUNT, SUM, AVG, MAX, MIN)
 - Subqueries
+- YEAR-based analysis
 
 ---
 
-## Progress
+## 🧠 Questions
 
-- ✅ Week 12 Completed
-- ✅ Week 13 Completed
-- ⏳ Week 14 In Progress
+| No. | Question | Status |
+|----:|----------|:------:|
+| Q1 | Count employees in each department | ⬜ |
+| Q2 | Average salary per department | ⬜ |
+| Q3 | Highest & lowest salary per department | ⬜ |
+| Q4 | Total salary per department | ⬜ |
+| Q5 | Employees joined per year | ⬜ |
+| Q6 | Departments with more than 1 employee | ⬜ |
+| Q7 | Departments with avg salary > 50,000 | ⬜ |
+| Q8 | Years with more than 2 employees joined | ⬜ |
+| Q9 | Employee name with department manager (INNER JOIN) | ⬜ |
+| Q10 | Employees with managers (LEFT JOIN) | ⬜ |
+| Q11 | Total salary per department (JOIN + GROUP BY) | ⬜ |
+| Q12 | Employee with highest salary (subquery) | ⬜ |
+| Q13 | Employees earning above average salary | ⬜ |
+| Q14 | Second highest salary | ⬜ |
+| Q15 | Employees joined after lowest salary employee | ⬜ |
+| Q16 | Departments with employees earning > 60,000 | ⬜ |
+| Q17 | Total employees & salary per department | ⬜ |
+| Q18 | Highest paid employee per department | ⬜ |
+| Q19 | Departments where no salary < 45,000 | ⬜ |
+| Q20 | Employees matching HR joining year | ⬜ |
+
+---
+
+## 🎯 Summary
+
+This week covers:
+
+✔ Aggregation  
+✔ GROUP BY & HAVING  
+✔ JOINS (INNER & LEFT)  
+✔ Subqueries  
+✔ Real-world SQL analysis  
